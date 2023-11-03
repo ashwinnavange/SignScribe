@@ -1,0 +1,79 @@
+name: signscribe
+description: A new Flutter project.
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  get: ^4.6.5
+  sliding_up_panel:
+  webview_flutter:
+  permission_handler:
+  camera:
+  flutter_inappwebview:
+  provider:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/logo/logo1.jpg"
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/signs/
+    - assets/logo/
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Quicksand
+      fonts:
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Regular.ttf
+          weight: 200
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Light.ttf
+          weight: 100
+    - family: Comfortaa
+      fonts:
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Regular.ttf
+          weight: 200
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Medium.ttf
+          weight: 400
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Bold.ttf
+          weight: 800
+        - asset: assets/fonts/RedHatDisplay/RedHatDisplay-Light.ttf
+          weight: 100
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
